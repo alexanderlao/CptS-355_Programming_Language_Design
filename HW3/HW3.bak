@@ -1,0 +1,6 @@
+; Alexander Lao
+; CPTS355 - ASSIGNMENT 3 (SCHEME)
+
+(define (deepCount L) (cond
+                        ((null? L) 0)
+                        ((pair? L) 
